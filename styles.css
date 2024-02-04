@@ -1,0 +1,174 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+*/
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "font-me";
+    box-sizing: border-box;
+    z-index: 1;
+}
+@font-face{
+    font-family: "font-two";
+    src: url(../Resources/SpaceOdysseyDEMO.otf);
+}
+@font-face{
+    font-family: "font-me";
+    src: url(../Resources/Americanatest.ttf);
+}
+
+
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+
+
+header{
+    width: 100%;
+    height: 7vh;
+    background-color: black;
+    -webkit-box-shadow: 0px 5px 22px 7px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 5px 22px 7px rgba(0,0,0,1);
+    box-shadow: 0px 5px 22px 7px rgba(0,0,0,1);
+    position: fixed;
+    z-index: 999;
+}
+
+#header-nav {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.head-cuerpo{
+    width: 40%;
+}
+
+.navbar{
+    display: flex;
+    height: 100%;
+}
+
+.navbar img{
+    width: 65px;
+    height: 65px;
+}
+
+ul{
+    display:flex;    
+    width: 100%;
+}
+
+.logo{
+    width: 10%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo li{
+    list-style:none;
+    width: 100px;
+}
+
+.bibi-cart2:hover{
+    width: 31px;
+    height: 26px;
+}
+
+li {
+    font-size: medium;
+    color: #fff;
+    padding: 24px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    font-size:larger;
+    font-weight: 200;
+}
+
+li::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+    background: linear-gradient(to top, rgba(55, 255, 20, 0.616) 0%,rgba(1, 133, 1, 0.562), rgba(255, 255, 255, 0) 100%);
+    transform: translateY(100%);
+    transition: transform 0.4s ease-in-out;
+}
+
+li:hover::before {
+    transform: translateY(0);
+}
+
+#inicio{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-text{
+    margin: 100px;
+    margin-top: 350px;
+    width: 50%;
+    height:auto;
+}
+
+.title h1{
+    font-family: "font-me";
+    font-weight: 700;
+    font-size: 320%;
+    text-shadow: 2px 4px 0px rgba(0,0,0,0.31);
+}
+
+.text{
+    margin-top: 80px;
+}
+
+.text h2{
+    font-family: "font-two";
+    font-size:x-large;
+    font-weight: 100;
+    text-shadow: 2px 4px 0px rgba(0,0,0,0.31);
+}
+
+.container-img{
+    height: 80vh;
+    width: 30%;
+}
+
+.container-img img{
+    position: absolute;
+    top: 10vh;
+    height: 700px;
+}
+
+.campo{
+    top: 7%;
+    z-index: -1;
+    position: absolute;
+}
+
+.campo img{
+    width: 100vw;
+    height: 93vh;
+}
+
+#equipo{
+    height: 800px;
+}
+
+.about-team p{
+    color: black;
+}
