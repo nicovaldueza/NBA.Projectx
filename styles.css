@@ -15,13 +15,16 @@
     src: url(./Resources/Americanatest.ttf);
 }
 
+@font-face{
+    font-family: "font-two";
+    src: url(./Resources/coolvetica\ rg.otf);
+}
 
 body{
     width: 100%;
     height: auto;
     overflow-x: hidden;
 }
-
 
 
 header{
@@ -163,9 +166,89 @@ li:hover::before {
 }
 
 #equipo{
-    height: 800px;
+    height: auto;
+    background: #090909;
 }
 
-.about-team p{
-    color: black;
+#equipo h1{
+    margin: 45px;
+    font-family: "font-two";
+    font-weight: 100;
+}
+
+.title-equipo{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    height: 100%;
+    font-family: "font-me";
+}
+
+.title-equipo h1{
+    color: rgb(55, 255, 20);
+    margin: 0px;
+}
+
+.about-team {
+    padding: 0px 300px;
+    display: grid;
+    row-gap: 70px;
+}
+
+.milton{
+    justify-content: center;
+    border-radius: 20px;
+    margin: 80px;
+    background-color: rgba(0, 0, 0, 0.37);
+    display: flex;
+    -webkit-box-shadow: 0px 0px 14px 1px rgb(55, 255, 20);
+    -moz-box-shadow: 0px 0px 14px 1px rgb(55, 255, 20);
+    box-shadow: 0px 0px 14px 1px rgb(55, 255, 20);
+}
+
+.milton img{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.orejon{
+    border-radius: 20px;
+    margin: 80px;
+    background-color: rgba(0, 0, 0, 0.37);
+    display: flex;
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(55, 255, 20, 0.39);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(55, 255, 20, 0.432);
+    box-shadow: 0px 0px 14px 1px rgba(55, 255, 20, 0.404);
+}
+
+.orejon img{
+    border-radius: 0px 20px 20px 0px;
+}
+
+.nehemias{
+    border-radius: 20px;
+    margin: 80px;
+    background-color: rgba(0, 0, 0, 0.37);
+    display: flex;
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(55, 255, 20, 0.616);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(55, 255, 20, 0.616);
+    box-shadow: 0px 0px 14px 1px rgba(55, 255, 20, 0.616);
+}
+
+.nehemias img{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.nicote{    
+    border-radius: 20px;
+    margin: 80px;
+    background-color: rgba(0, 0, 0, 0.37);
+    display: flex;
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(55, 255, 20, 0.616);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(55, 255, 20, 0.616);
+    box-shadow: 0px 0px 14px 1px rgba(55, 255, 20, 0.616);
+}
+
+.nicote img{
+    border-radius: 0px 20px 20px 0px;
 }
