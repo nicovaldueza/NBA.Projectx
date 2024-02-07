@@ -1,7 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
-*/
-*{
+ *{
     color: white;
     margin: 0;
     padding: 0;
@@ -47,12 +44,11 @@ header{
     display: flex;
     height: 100%;
     justify-content: space-between;
-    align-items: center;
     font-weight: 600;
 }
 
 .head-cuerpo{
-    width: 40%;
+    width: 100%;
 }
 
 .navbar{
@@ -60,46 +56,49 @@ header{
     height: 100%;
 }
 
-.navbar img{
+#logo-NBA{
     width: 65px;
-    height: 65px;
+    height: 76px;
+}
+
+.contacto img{
+    width: 50px;
 }
 
 ul{
-    display:flex;    
-    width: 100%;
+    display: flex;
 }
 
-.logo{
-    width: 10%;
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
+.ul1{
+    width: 50%;
 }
 
-.logo li{
-    list-style:none;
-    width: 100px;
+.ul2-1{
+    display: flex;
+    width: 50%;
+    justify-content: end;
 }
 
-.bibi-cart2:hover{
-    width: 31px;
-    height: 26px;
+.ul2{
+    width: 30%;
 }
 
-li {
-    font-size: medium;
+a{
+    text-decoration: none;
+}
+
+#lista{
     color: #fff;
     padding: 24px;
     text-align: center;
     position: relative;
     overflow: hidden;
     width: 100%;
-    font-size:larger;
+    font-size:x-large;
     font-weight: 200;
 }
 
-li::before {
+#lista::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -109,10 +108,10 @@ li::before {
     z-index: -1;
     background: linear-gradient(to top, rgba(55, 255, 20, 0.616) 0%,rgba(1, 133, 1, 0.562), rgba(255, 255, 255, 0) 100%);
     transform: translateY(100%);
-    transition: transform 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 
-li:hover::before {
+#lista:hover::before {
     transform: translateY(0);
 }
 
@@ -173,14 +172,12 @@ li:hover::before {
 #equipo{
     height: auto;
     background: #090909;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 }
-
-
 
 .title-equipo{
     padding-top: 80px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
     display: flex;
     justify-content: center;
     height: 100%;
@@ -202,8 +199,6 @@ li:hover::before {
 }
 
 .about-team h1{
-    padding: 15px;
-    border-bottom: solid 1px rgba(55, 255, 20, 0.39);
     font-family: "font-three";
     font-size:xx-large ;
     font-weight: 100;
@@ -213,6 +208,56 @@ li:hover::before {
     padding: 15px;
     font-family: "font-three";
     font-size:x-large;
+}
+
+span{
+    color:  rgb(55, 255, 20) ;
+    font-family: "font-three";
+    font-size:xx-large ;
+}
+
+.title-all{
+    padding: 15px;
+    border-bottom: solid 1px rgba(55, 255, 20, 0.39);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ancord {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: flex;
+}
+
+#ancord:hover {
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 13px 1px rgb(55, 255, 20, 0.61);
+    -moz-box-shadow: 0px 0px 13px 1px rgb(55, 255, 20, 0.61);
+    box-shadow: 0px 0px 13px 1px rgb(55, 255, 20, 0.61);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#ancord::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    z-index: -1;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#ancord:hover::before {
+    -webkit-box-shadow: 0px 0px 13px 1px rgba(55, 255, 20, 0.61);
+    -moz-box-shadow: 0px 0px 13px 1px rgb(55, 255, 20, 0.61);
+    box-shadow: 0px 0px 13px 1px rgb(55, 255, 20, 0.61);
 }
 
 .milton{
@@ -225,7 +270,8 @@ li:hover::before {
     box-shadow: 0px 0px 14px 1px rgba(55, 255, 20, 0.39);
 }
 
-.milton img{
+.img-milton img{
+    display: flex;
     border-radius: 10px 0px 0px 10px;
 }
 
@@ -238,7 +284,8 @@ li:hover::before {
     box-shadow: 0px 0px 14px 1px rgba(55, 255, 20, 0.39);
 }
 
-.orejon img{
+.img-orejon img{
+    display: flex;
     border-radius: 0px 10px 10px 0px;
 }
 
@@ -251,7 +298,8 @@ li:hover::before {
     box-shadow: 0px 0px 14px 1px rgba(55, 255, 20, 0.39);
 }
 
-.nehemias img{
+.img-nehemias img{
+    display: flex;
     border-radius: 10px 0px 0px 10px;
 }
 
@@ -264,6 +312,7 @@ li:hover::before {
     box-shadow: 0px 0px 14px 1px rgba(55, 255, 20, 0.39);
 }
 
-.nicote img{
+.img-nico img{
+    display: flex;
     border-radius: 0px 10px 10px 0px;
 }

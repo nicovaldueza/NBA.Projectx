@@ -13,34 +13,19 @@
         <section id="header-nav">
             <div class="head-cuerpo">
                 <nav class="navbar">
-                    <img src="./Resources/logo2.png"  alt="">
-                    <ul>
-                        <li>INICIO</li>
-                        <li>EQUIPO</li>
-                        <li>SERVICIOS</li>
-                        <li>CLIENTES</li>
+                    <img src="./Resources/logo2.png" id="logo-NBA" alt="">
+                    <ul class="ul1">
+                        <li id="lista"><a id="" href="#inicio">INICIO</a></li>
+                        <li id="lista"><a id="" href="#equipo">EQUIPO</a></li>
+                        <li id="lista"><a id="" href="">SERVICIOS</a></li>
+                        <li id="lista"><a id="" href="">CLIENTES</a></li>
                     </ul>
+                    <div class="ul2-1">
+                        <ul class="ul2">
+                            <li id="lista"><a id="contacto" target="_blank" href="https://calendly.com/northernbusinessagency/30min">CONTACTANOS</a></li>
+                        </ul>
+                    </div>
                 </nav>
-            </div>
-            <div class="logo">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="#00FF00" class="bibi-cart2" viewBox="0 0 16 16">
-                    <defs>
-                      <filter id="neon-glow" x="-50%" y="-50%" width="200%" height="200%">
-                          <feFlood result="flood" flood-color="#00FF00" flood-opacity="0.1"></feFlood>
-                        <feComposite in="flood" result="mask" in2="SourceGraphic" operator="in"></feComposite>
-                        <feMorphology in="mask" result="dilated" operator="dilate" radius="2"></feMorphology>
-                        <feGaussianBlur in="dilated" result="blurred" stdDeviation="2"></feGaussianBlur>
-                        <feMerge>
-                          <feMergeNode in="blurred"></feMergeNode>
-                          <feMergeNode in="SourceGraphic"></feMergeNode>
-                        </feMerge>
-                      </filter>
-                    </defs>
-                    <g filter="url(#neon-glow)">
-                      <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
-                    </g>
-                  </svg>
-                  <li>LOG IN</li>
             </div>
         </section>
     </header>
@@ -57,9 +42,9 @@
                     <h2>No solo proporcionamos un servicio, sino tambien garantizamos el logro de los resultados deseados. Ademas, ofrecemos la maxima confianza y seguridad para sus proyectos de manera profesional y sencilla.</h2>
                 </div>
                 </div>
-            <div class="container-img">
-                <img src="./Resources/logo.png" width="600" height="700" alt="">
-            </div>
+                <div class="container-img">
+                    <img src="./Resources/logo.png" width="600" height="700" alt="">
+                </div>
         </section>
         <section id="equipo">
             <div class="title-equipo">
@@ -67,35 +52,84 @@
             </div>
             <div class="about-team">
                 <div class="milton">
-                    <img src="./Resources/milton.jpeg" width="200px" alt="">
+                    <div class="img-milton">
+                        <img src="./Resources/milton.jpeg" width="200px" alt="">
+                    </div>
                     <div class="text-milton">
-                        <h1>Milton Gallardo - Socio Fundador</h1>
+                        <div class="title-all">
+                            <h1>Milton Gallardo - <span>Socio  Fundador</span></h1>
+                            <a href="https://www.linkedin.com/in/milton-gallardo-433779299/" target="_blank" id="ancord"><img src="./Resources/linkedin (1).png" width="30px" height="30px" alt=""></a>
+                        </div>
                         <p>Lidera con visión estratégica y experiencia sólida. Su maestría se refleja en soluciones innovadoras que conectan marcas y audiencias, impulsando al equipo hacia el éxito con resultados excepcionales.</p>
                     </div>
                 </div>
                 <div class="orejon">
                     <div class="text-orejon">
-                        <h1>Nahuel Gómez - Socio Fundador</h1>
+                        <div class="title-all">
+                            <h1>Nahuel Gómez - <span>Socio  Fundador</span></h1>
+                            <a href="https://www.linkedin.com/in/nahuel-gomez-55426b29a/" target="_blank" id="ancord"><img src="./Resources/linkedin (1).png" width="30px" height="30px" alt=""></a>
+                        </div>
                         <p>Lidera con creatividad desde el inicio, siendo clave para el éxito y crecimiento de nuestra agencia. Con una sólida experiencia en marketing, destaca por identificar y aprovechar oportunidades, consolidando nuestra posición como referentes en el mercado.</p>
                     </div>
-                    <img src="./Resources/orejon.jpeg" width="200px" alt="">
+                    <div class="img-orejon">
+                        <img src="./Resources/orejon.jpeg" width="200px" alt="">
+                    </div>
                 </div>
                 <div class="nehemias">
-                    <img src="./Resources/xd.jpg" width="200px" alt="">
+                    <div class="img-nehemias">
+                        <img src="./Resources/xd.jpg" width="200px" alt="">
+                    </div>
                     <div class="text-nehemias">
-                        <h1>Nehemias Avalos - Editor Profesional</h1>
+                        <div class="title-all">
+                            <h1>Nehemias Avalos - <span>Editor</span></h1>
+                            <a href="https://www.linkedin.com/in/nehemias-avalos-79432a260/" target="_blank" id="ancord"><img src="./Resources/linkedin (1).png" width="30px" height="30px" alt=""></a>
+                        </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae libero fugiat reprehenderit odio dolores quidem, ipsa quam minus tempore voluptatibus sunt? Accusantium neque doloremque a? Autem assumenda eligendi quos corporis?</p>
                     </div>
                 </div>
                 <div class="nicote">
                     <div class="text-nicote">
-                        <h1>Nicote - Programador Web Profesional</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error doloremque maxime reprehenderit saepe delectus eligendi provident beatae. Velit sint consectetur a itaque, distinctio exercitationem. Quod fugiat magnam aspernatur facilis aut?</p>
+                        <div class="title-all">
+                            <h1>Nicote - <span>Programador Web</span></h1>
+                            <a href="https://www.linkedin.com/in/nicolas-valdueza-846b47273/" target="_blank" id="ancord"><img src="./Resources/linkedin (1).png" width="30px" height="30px" alt=""></a>
+                        </div>
+                        <p>Un desarrollador Front-End comprometido y ambicioso, con una visión hacia el futuro y una constante búsqueda de alternativas innovadoras para optimizar su trabajo diario.
+                             Persigue el perfeccionamiento continuo, abrazando desafíos como oportunidades para alcanzar nuevos niveles de excelencia.
+                        </p>
                     </div>
-                    <img src="./Resources/nicote.jpeg" width="200px" alt="">
+                    <div class="img-nico">
+                        <img src="./Resources/nicote.jpeg" width="200px" alt="">
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 </body>
 </html>
