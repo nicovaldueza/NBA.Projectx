@@ -83,11 +83,9 @@ ul{
     width: 30%;
 }
 
-a{
-    text-decoration: none;
-}
-
 #lista{
+    list-style: none;
+    text-decoration: none;
     color: #fff;
     padding: 24px;
     text-align: center;
