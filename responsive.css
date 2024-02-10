@@ -1,12 +1,22 @@
 @media (max-width:800px){
+    /*FONDO*/
+    .campo{
+        top: 4vh;
+    }
+
     .campo img{
         height: 100vh;
     }
     
-    .navbar{
-        height: 80%;
+    /*HEADER*/
+    header{
+        z-index: 10;
+        background-color: black;
+        height: 4vh;
     }
     
+    
+    /*NAVBAR*/
     #lista{
         padding: 0;
         display: flex;
@@ -23,13 +33,18 @@
         width: 30%;
         display: flex;
         justify-content: center;
-        border-left: solid 1px rgba(55, 255, 20, 0.39);
+        border-left: solid 2px rgba(55, 255, 20, 0.39);
     }
     
     .ul2{
         width: 100%;
     }
-    
+
+    #logo-NBA{
+        width: 20px;
+        height: auto;
+    }
+    /*INICIO*/
     #inicio{
         display: grid;
     }
@@ -50,10 +65,15 @@
     }
     
     .container-img img{
-        width: 75%;
-        
+        padding-left: 30px;
+        width: 100%;
     }
     
+    .title{
+        display: flex;
+        justify-self: center;
+    }
+
     .title h1{
         margin: 10px;
         font-size: "font-three";
@@ -65,7 +85,6 @@
         margin: 10px;
     }
     
-    /*NAVBAR*/
     .text h2{
         font-size: 100%;
     }
@@ -84,10 +103,6 @@
         font-size: x-large;
     }
     
-    #logo-NBA{
-        width: 20px;
-        height: 40px;
-    }
 
     .about-team{
         display:grid;

@@ -268,7 +268,10 @@ span{
     box-shadow: 0px 0px 13px 1px rgba(55, 255, 20, 0.39);
 }
 
-
+.img-milton{
+    display: flex;
+    object-fit: cover;
+}
 .img-milton img{
     border-radius: 10px 0px 0px 10px;
 }
