@@ -93,7 +93,6 @@
         padding: 7px;
     }
 
-
     .about-team p{
         font-size: large;
         padding: 7px;
@@ -102,7 +101,6 @@
     .about-team h1,span{
         font-size: x-large;
     }
-    
 
     .about-team{
         display:grid;
@@ -110,12 +108,11 @@
         justify-content: center;
         padding: 0px 10px;
     }
-    
+    /*EQUIPO*/
     #img-lv{
         height: 100%;
         width: 150px;
     }
-
 
     .milton, .nicote, .orejon, .nehemias{
         width: 80vw;
